@@ -21,11 +21,14 @@ body {
     display: flex;
     align-items:center;
     justify-content: space-between;
-    margin:5%;
+    margin:10%;
 }
 
 .presentacion_contenido{
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap:40px
 }
 
 .presentacion_contenido_titulo{
@@ -34,6 +37,25 @@ body {
 }
 
 .presentacion__contenido_texto{
-    font-size: 24px
+    font-size: 24px;
     font-family: "Montserrat", serif;
+}
+
+.presentacion_enlaces{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.presentacion_enlaces_link{
+    width : 380px;
+    background-color: aqua ;
+    text-align: center;
+    padding: 21.5px 0px ; 
+    margin:20px;
+    border-radius: 16px;
+    font-family: "Montserrat", serif;
+    font-weight: 600px;
+    text-decoration: none;
+    color: #000000;
 }
